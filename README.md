@@ -40,7 +40,7 @@ A file with parsed numbers will be created and stored at the project root with n
 
 
 ## People
-The author of this repository is [Priyanshu Rathore](https://github.com/tj)
+The author of this repository is [Priyanshu Rathore](https://github.com/prathored)
 
 ## License
 
