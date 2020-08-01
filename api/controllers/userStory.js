@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
+
 const constants = {
     '0': [
         [false, true, false],
