@@ -10,7 +10,7 @@ const app = express();
 app.use(logger("dev"));
 app.use(cors());
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/api", routesApi);
 app.use('/public', express.static(path.join(__dirname, 'public')));
 

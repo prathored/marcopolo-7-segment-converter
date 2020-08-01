@@ -1,7 +1,7 @@
 module.exports = {
     getListOfNumbers: (req, res) => {
         let allData = "";
-        for(let i = 1; i <= 1000000; i++) {
+        for (let i = 1; i <= 1000000; i++) {
             if ((i % 4 === 0) && (i % 7 === 0)) {
                 allData = allData + "marcopolo,";
             } else if (i % 4 === 0) {

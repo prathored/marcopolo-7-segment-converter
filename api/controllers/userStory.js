@@ -63,7 +63,7 @@ module.exports = {
             }
             const lines = data.split("\n");
             let allData = "";
-            for(let i = 0; i <= (lines.length - 1); i = i + 4) {
+            for (let i = 0; i <= (lines.length - 1); i = i + 4) {
                 for (let j = 0; j < lines[i].length; j = j + 3) {
                     let matrix = [
                         [(lines[i].charAt(j) !== " "), (lines[i].charAt(j + 1) !== " "), (lines[i].charAt(j + 2) !== " ")],
